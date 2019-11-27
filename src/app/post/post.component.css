@@ -1,0 +1,27 @@
+.post, .post1 {
+    width: 450px;
+    border: 1px dashed #ccc;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post2, .post3{
+    width: 450px;
+    border: 1px dashed #ccc;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.top-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   }
+  
+.bottom-blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
