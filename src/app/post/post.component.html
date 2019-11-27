@@ -1,28 +1,21 @@
 
-<div class="top-blocks">
-    <div class="post">
-        <h2>Post title</h2>
+<div class="top-blocks" *ngFor = " let title of titles" >
+        <div class="post">
+            <h2>{{title.property}}</h2>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum in itaque rerum tenetur doloremque placeat excepturi esse repellendus totam! Adipisci!</p>
-    </div>
+                <p>
+                    {{title.definition}}
+                </p>
+        </div>
 
-    <div class="post1">
-        <h2>Post title intell</h2>
+    <div class="bottom-blocks">
+        <div class="post">
+            <h2>{{title.property}}</h2>
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum in itaque rerum tenetur doloremque placeat excepturi esse repellendus totam! Adipisci!</p>
-    </div>
-</div>
+                <p>
+                        {{title.definition}}
+                </p>
+        </div>
 
-<div class="bottom-blocks">
-    <div class="post2">
-        <h2>Post title magic</h2>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum in itaque rerum tenetur doloremque placeat excepturi esse repellendus totam! Adipisci!</p>
-    </div>
-
-    <div class="post3">
-        <h2>Post title silicon</h2>
-
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum in itaque rerum tenetur doloremque placeat excepturi esse repellendus totam! Adipisci!</p>
-    </div>
+        
 </div>
